@@ -1,0 +1,75 @@
+body {
+    font-family:Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+#main-header {
+    background:#180485;
+    color:white;
+    padding:50px;
+    text-align: center;
+}
+
+#filter {
+    width:40%;
+    padding:12px;
+    margin-top:10px;
+}
+
+.container {
+    
+    max-width:600px;
+    margin:auto;
+    padding:50px;
+    background:white;
+    box-shadow: 0 0 10px rgba(10, 1, 1, 0.919);
+    border-radius:50px;
+    
+}
+
+#addForm {
+    display:flex;
+    gap:10px;
+    justify-content:center;
+}
+
+#item {
+    flex: 1;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+    background: black;
+    color:white;
+    padding:8px 15px;
+    border:none;
+    cursor:pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    background: #f8f9fa;
+    border-radius: 20px;
+}
+
+.delete {
+    background: red;
+    color: white;
+    border:none;
+    cursor:pointer;
+    padding:5px 10px;
+    border-radius: 8px;
+}
